@@ -1,4 +1,4 @@
-# cf (Cloudflare CLI)
+# cf-ops (Cloudflare cf CLI 操作指南)
 
 Cloudflare 官方新一代 CLI「cf」（wrangler 继任者）的使用技能：cf 镜像整个 Cloudflare API（3000+ 操作），覆盖 DNS 记录 / 域名 zone 管理、Workers 部署、WAF、Access、R2 / D1 / KV 与账号资源。凡用 `cf` 命令操作 Cloudflare 平台的任务先加载本技能。入口与完整规则见 [SKILL.md](SKILL.md)。
 
@@ -10,10 +10,10 @@ Cloudflare 官方新一代 CLI「cf」（wrangler 继任者）的使用技能：
 
 ```bash
 # 多宿主共享路径
-git clone https://github.com/techdou/cf.git ~/.agents/skills/cf
+git clone https://github.com/techdou/cf-ops.git ~/.agents/skills/cf-ops
 
 # 或安装到 Claude Code 路径
-git clone https://github.com/techdou/cf.git ~/.claude/skills/cf
+git clone https://github.com/techdou/cf.git ~/.claude/skills/cf-ops
 ```
 
 若目录已是 Git 检出，用 `git pull --ff-only` 更新；出现分叉先合并，不覆盖本地改动。

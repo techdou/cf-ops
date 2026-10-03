@@ -1,5 +1,5 @@
 ---
-name: cf
+name: cf-ops
 description: Cloudflare 官方新一代 CLI（wrangler 继任者），镜像整个 Cloudflare API（3000+ 操作）：DNS 记录/域名 zone 管理、Workers 部署、WAF、Access、R2/D1/KV、账号资源等。凡是用 cf 命令操作 Cloudflare 平台的任务先加载本 skill。注意与 cloudflared（隧道 daemon）无关——内网穿透任务用 cloudflared，不用 cf。
 ---
 
